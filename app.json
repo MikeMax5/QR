@@ -1,7 +1,13 @@
 {
   "expo": {
-    "name": "saynaQr",
-    "slug": "saynaQr",
+    "name": "sayna",
+    "slug": "sayna",
+    "sdkVersion": "39.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,10 +23,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "nothing"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "android": {
+      "package": "nothing"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
